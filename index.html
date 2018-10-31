@@ -6,6 +6,48 @@
     body {
       background-color: #E8F8F5;
     }
+    header {
+      padding: 3rem;
+      background: #FFCFA0;
+      border: solid;
+      border-width: 1em;
+      color: white;
+    }
+
+    .container {
+			display: grid;
+			grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+			grid-template-rows: .2fr 1.6fr .2fr;
+			max-width: 100vw;
+			margin: 2rem;
+		}
+    footer {
+			background-color: #FFC2BB;
+			grid-row: 3;
+			grid-column: 1 / 5;
+			text-align: center;
+			padding: 2rem;
+		}
+    #part1 {
+			background-color: #FFF8EA;
+      padding-right: 1rem;
+      padding-left: 1rem;
+		}
+    #part2 {
+			background-color: #FFF2EA;
+      padding-right: 1rem;
+      padding-left: 1rem;
+		}
+    #part3 {
+			background-color: #FFEAEA;
+      padding-right: 1rem;
+      padding-left: 1rem;
+		}
+    #link{
+      background-color: #F6FFEA;
+      padding-right: 5rem;
+      padding-left: 5rem;
+    }
   </style>
 
   <meta charset="UTF-8">
@@ -14,14 +56,13 @@
 
 <body>
   <main>
-    <div id="container">
-      <header>
-        <h1><span style = "color:#BA4A00;">Main Page</span>
-        <img src="pic2.jpg" alt="header">
-       </h1>
-      </header>
-
-      <section>
+    <header>
+      <h1><span style = "color:#BA4A00;">Main Page</span>
+      <img src="pic2.jpg" alt="header">
+     </h1>
+    </header>
+    <div class="container">
+      <section id="part1">
         <h2><span style = "color:#E67E22;">About Me</span></h2>
         <h3><span style = "color:#D98880;">Jinghan(Clare) Zhang</span></h3><i>Sophomore</i>
         <h4>Major:</h4>
@@ -29,17 +70,17 @@
         <h4>Interest:</h4>
         <P><i>Drawing & Painting, Playing Video Games, Sleeping</i>
           <br><br></P>
-
+</section>
+<section id="part2">
           <h2><span style = "color:#E67E22;">Course Info</span></h2>
           <p><h3>DES117 - Interactive Media</h3>Section - <i>002</i>
             <br><br> <b>Instructor:</b> A. Schleiner <br><br>
             <b>Description:</b><br>
             <p>Practice of creating interactive visual media for network-based applications and principles of human computer interaction. Responsive design. User-centered research, information architecture, interface and interaction. Analysis of
               usability. Development and presentation of design production materials and completed interactive projects.</p>
-
       </section>
 
-      <section>
+      <section id="part3">
         <h2><span style = "color:#E67E22;">My Work :D</span></h2>
         <ul>
           <li><strong>Exercise</strong></li>
@@ -68,19 +109,17 @@
         <img src="pic3.jpg" alt="pic">
       </section>
 
-        <aside>
+        <aside id = "link">
           <br><br>
           <h3><span style = "color:#626567;">Links</span></h3>
           <p><span style = "color:#626567;">Facebook:</span></p><a href= "https://www.facebook.com/jinghan.zhang.96">Jinghan Zhang</a>
-          <br><br>
-          <br><br>
       </aside>
+</div>
           <footer>
             <img src="pic3.bmp" alt="header">
             <P><span style = "color:#0E6655;">E-mail: <a href = "mailto:&#106;&#104;&#122;&#122;&#104;&#097;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#106;&#104;&#122;&#122;&#104;&#097;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></span></P>
             <p><span style = "color:#0E6655;">More Contact Info: <a href = "http://arts.ucdavis.edu/design"><i>UC Davis Design Department</i></a></span><br></p>
           </footer>
-    </div>
   </main>
 </body>
 </html>
