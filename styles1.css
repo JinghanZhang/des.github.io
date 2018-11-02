@@ -1,7 +1,30 @@
+.rotate-center {
+	-webkit-animation: rotate-center 1s ease-in-out ;
+	        animation: rotate-center 1s ease-in-out ;
+}
 
-/*Sets the width of the overall page container div
-to 90% of viewport width and margin:auto centers the page
-in the middle of the browser no matter how wide you stretch the browser*/
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
 .pagecontainer {
   margin: auto;
   width: auto;
@@ -12,8 +35,8 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  padding: 5rem;
-  border-radius: 5rem;
+  padding: 2rem;
+  border-radius: 4rem;
   text-align: center;
   background-image: url('header.jpg');
 }
@@ -31,15 +54,13 @@ nav ul li {
   background: #40BEB1;
   height: 2rem;
   width: inherit;
-  border-spacing: 1rem;
-  padding:0.5rem;
+  padding: 0.5rem;
   text-align: center;
   border-width: 2rem;
-  border-radius: 1rem;
+  border-radius: .5rem;
 }
 /*Takes away the default underlining of links and sets color of menu font*/
 nav ul li a {
-  text-decoration: none;
   font-size: 1.5em;
   color: #FFFFFF;
   font-family: 'Concert One', cursive;
@@ -54,24 +75,21 @@ nav ul li:active {
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
 .locationmarker {
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+  text-decoration: underline;
   border-width: thin;
   text-align: center;
-  border-radius: 2rem;
   font-family: 'Concert One', cursive;
-}
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  max-width: 100vw;
-  margin: 2rem;
 }
 
 .blog1{
-  background-image: url('blog1.jpg');
+  background-image: url('blog1.jpeg');
 }
 .blog2{
-  background-image: url('blog3.jpg');
+  background-image: url('blog2.png');
 }
 
 h1{
@@ -83,16 +101,18 @@ h1{
 }
 
 h2{
+  text-decoration: underline;
   font-family: 'Righteous', cursive;
 }
 
 article {
+  color: #FFFFFF;
   font-family: 'Cuprum', sans-serif;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-footer {
+footer, aside {
   font-family: 'Righteous', cursive;
   padding: 1rem;
   text-align: center;
