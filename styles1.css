@@ -112,37 +112,34 @@ header {
   width: auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr;
-  grid-gap: .5rem;
+  grid-template-rows: 3fr;
+  grid-gap: 2rem;
 }
 
 nav ul {
+	background-color: #D1F2EB;
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
 }
 
 nav ul li {
-  background: #F5B041;
+	display: inline-block;
   height: 2rem;
-  padding:inherit;
+  padding: inherit;
   text-align: center;
-  border-width: 2rem;
-  border-radius: 1rem;
 }
-/*Takes away the default underlining of links and sets color of menu font*/
+
 nav ul li a {
-  font-size: 1.5em;
-  color: #FFFFFF;
+	text-decoration: none;
+  font-size: 1.8em;
+  color: #5D6D7E;
   font-family: 'Concert One', cursive;
-  border-radius: 2rem;
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
-  background-color: #F4D03F;
-  font-size: 1.3em;
-  border-radius: 1rem;
-  text-shadow:
+	border-radius:1rem;
+  background-color: #A2D9CE;
 }
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
@@ -151,7 +148,6 @@ which page you are on--in this case the home page*/
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 0.5rem;
-  text-decoration: underline;
   border-width: thin;
   text-align: center;
   font-family: 'Concert One', cursive;
@@ -169,6 +165,13 @@ which page you are on--in this case the home page*/
   animation-duration: 2s;
 }
 
+.intro{
+	background-image: url('intro.jpg');
+	animation-name: tracking-in-expand-fwd-bottom;
+  animation-duration: 2s;
+	color: #1F618D;
+}
+
 h1{
   color: #FFFFFF;
   font-variant: small-caps;
@@ -182,6 +185,10 @@ h2{
   font-family: 'Righteous', cursive;
   animation-name: text-focus-in;
   animation-duration: 2s;
+}
+
+a{
+	color: #73C6B6;
 }
 
 article {
