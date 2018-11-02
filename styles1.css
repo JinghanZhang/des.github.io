@@ -1,29 +1,111 @@
-.rotate-center {
-	-webkit-animation: rotate-center 1s ease-in-out ;
-	        animation: rotate-center 1s ease-in-out ;
+/*animation for text*/
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
-
-@-webkit-keyframes rotate-center {
+@-webkit-keyframes tracking-in-expand {
   0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
   }
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    opacity: 1;
   }
 }
-@keyframes rotate-center {
+@keyframes tracking-in-expand {
   0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
   }
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+/*animation for h2*/
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
   }
 }
 
+/*animation for text*/
+.tracking-in-expand-fwd-bottom {
+	-webkit-animation: tracking-in-expand-fwd-bottom 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-bottom 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand-fwd-bottom {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(500px);
+            transform: translateZ(-700px) translateY(500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd-bottom {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(500px);
+            transform: translateZ(-700px) translateY(500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+header {
+  padding: 2rem;
+  text-align: center;
+  background-image: url('header.jpg');
+  animation-name: tracking-in-expand;
+  animation-duration: 3s;
+}
 
 .pagecontainer {
   margin: auto;
@@ -34,30 +116,19 @@
   grid-gap: .5rem;
 }
 
-header {
-  padding: 2rem;
-  border-radius: 4rem;
-  text-align: center;
-  background-image: url('header.jpg');
-}
-/*Unordered list in the navbar is set to display flex with wrapping
-so at smaller size-mobile width--it wraps vertically in a row
-and at larger screen widths it spreads more horizontally.
-And justify-content centers flex blox content*/
 nav ul {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
 }
-/*Sets background color of nav list elements and their width and height*/
+
 nav ul li {
-  background: #40BEB1;
+  background: #F5B041;
   height: 2rem;
-  width: inherit;
-  padding: 0.5rem;
+  padding:inherit;
   text-align: center;
   border-width: 2rem;
-  border-radius: .5rem;
+  border-radius: 1rem;
 }
 /*Takes away the default underlining of links and sets color of menu font*/
 nav ul li a {
@@ -68,9 +139,10 @@ nav ul li a {
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
-  background-color: #5ED5C9;
+  background-color: #F4D03F;
   font-size: 1.3em;
   border-radius: 1rem;
+  text-shadow:
 }
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
@@ -86,10 +158,15 @@ which page you are on--in this case the home page*/
 }
 
 .blog1{
-  background-image: url('blog1.jpeg');
-}
-.blog2{
   background-image: url('blog2.png');
+  animation-name: tracking-in-expand-fwd-bottom;
+  animation-duration: 2s;
+}
+
+.blog2{
+  background-image: url('blog1.jpeg');
+  animation-name: tracking-in-expand-fwd-bottom;
+  animation-duration: 2s;
 }
 
 h1{
@@ -103,6 +180,8 @@ h1{
 h2{
   text-decoration: underline;
   font-family: 'Righteous', cursive;
+  animation-name: text-focus-in;
+  animation-duration: 2s;
 }
 
 article {
