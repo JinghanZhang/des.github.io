@@ -6,8 +6,6 @@ in the middle of the browser no matter how wide you stretch the browser*/
   margin: auto;
   width: auto;
   display: grid;
-  /*grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
-  grid-template-rows: 1fr 1.6fr 1fr;*/
   grid-template-columns: 1fr;
   grid-template-rows: 2fr;
   grid-gap: .5rem;
