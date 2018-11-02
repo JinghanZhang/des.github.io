@@ -4,58 +4,98 @@ to 90% of viewport width and margin:auto centers the page
 in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
-  width: 90vw;
+  width: auto;
+  display: grid;
+  /*grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+  grid-template-rows: 1fr 1.6fr 1fr;*/
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  grid-gap: .5rem;
 }
 
 header {
-  background: #B7C7CC;
-  padding: 2rem;
+  padding: 5rem;
+  border-radius: 5rem;
   text-align: center;
+  background-image: url('header.jpg');
 }
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
 and at larger screen widths it spreads more horizontally.
 And justify-content centers flex blox content*/
 nav ul {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: #727C7F;
+  background: #40BEB1;
   height: 2rem;
-  width: 36rem;
-  padding-top: 1rem;
-  border-color: black;
-  border: solid;
-  border-width: 1px;
+  width: inherit;
+  border-spacing: 1rem;
+  padding:0.5rem;
   text-align: center;
+  border-width: 2rem;
+  border-radius: 1rem;
 }
 /*Takes away the default underlining of links and sets color of menu font*/
 nav ul li a {
   text-decoration: none;
-  font-size: 1.2em;
-  color: #e7d067;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  font-family: 'Concert One', cursive;
+  border-radius: 2rem;
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
-  background: #B7C7CC;
+  background-color: #5ED5C9;
+  font-size: 1.3em;
+  border-radius: 1rem;
 }
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
 .locationmarker {
-  background: #727C7F;
+  border-width: thin;
+  text-align: center;
+  border-radius: 2rem;
+  font-family: 'Concert One', cursive;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  max-width: 100vw;
+  margin: 2rem;
+}
+
+.blog1{
+  background-image: url('blog1.jpg');
+}
+.blog2{
+  background-image: url('blog3.jpg');
+}
+
+h1{
+  color: #FFFFFF;
+  font-variant: small-caps;
+  font-family: 'Righteous', cursive;
+  font-size: 4rem;
+  text-shadow: black 3px 6px;
+}
+
+h2{
+  font-family: 'Righteous', cursive;
 }
 
 article {
+  font-family: 'Cuprum', sans-serif;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 footer {
-  background: #4C737F;
-  padding: 2rem;
+  font-family: 'Righteous', cursive;
+  padding: 1rem;
   text-align: center;
 }
