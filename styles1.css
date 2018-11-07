@@ -104,7 +104,7 @@
   width: auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: .8fr .2fr .5fr .8fr 1.1fr .4fr;
+  grid-template-rows: .8fr .25fr .5fr .8fr 1.1fr .4fr;
   grid-gap: .8rem;
 }
 
@@ -127,26 +127,23 @@ nav{
 nav ul {
   justify-content: center;
   list-style-type: none;
-}
-
-nav ul li {
 	padding: inherit;
 	text-align: center;
 }
 
 nav ul li a {
-	animation-name: tracking-in-expand;
-  animation-duration: 1.5s;
+	color: #FFFFFF;
 	text-shadow: #16AED5 1px 2px;
 	text-decoration: none;
-  font-size: 1.5em;
-  color: #FFFFFF;
+  font-size: 1.6em;
 	font-family: 'Righteous', cursive;
+	animation-name: tracking-in-expand;
+	animation-duration: 1.5s;
 }
 
 nav ul li:active {
-	border-color: white;
 	border-radius: .4rem;
+	border-style: outset;
   background-color: #FDC32B;
 }
 
@@ -203,7 +200,6 @@ h2{
 
 a{
 	color: white;
-	text-decoration: none;
 }
 
 article {
