@@ -104,7 +104,7 @@
   width: auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: .8fr .25fr .5fr .8fr 1.1fr .4fr;
+  grid-template-rows: .8fr .23fr .6fr .8fr 1.1fr .4fr;
   grid-gap: .8rem;
 }
 
@@ -200,6 +200,10 @@ h2{
 
 a{
 	color: white;
+}
+
+.spea{
+	color: #1F618D;
 }
 
 article {
