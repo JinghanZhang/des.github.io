@@ -69,6 +69,8 @@ article{
 }
 
 h3{
+	opacity: 20;
+  background-color: #FFFAD2;
 	color: orange;
 	text-shadow: yellow .5px 1px;
 	animation-name: tracking-in-expand;
