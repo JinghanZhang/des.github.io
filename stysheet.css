@@ -69,6 +69,7 @@ article{
 }
 
 h3{
+	text-decoration: underline;
 	opacity: 20;
   background-color: #FFFAD2;
 	color: orange;
