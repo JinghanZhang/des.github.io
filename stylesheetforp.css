@@ -6,7 +6,7 @@
     display: grid;
     background-color: black;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr .7fr .15fr;
+    grid-template-rows: 1fr 2fr .7fr .2fr;
   }
 
   .nav{
@@ -56,12 +56,6 @@
     background-size:cover;
   }
 
-  .titlework{
-    font-family: 'Poiret One', cursive;
-    font-size: 4em;
-    text-shadow: 3px 3px 3px pink;
-  }
-
   .work{
 
   }
@@ -90,7 +84,7 @@
     font-size: 1.3em;
     color: white;
     font-family: 'Carter One', cursive;
-    text-shadow: #38B8B3 2px 2px;
+    text-shadow: green 2px 2px;
   }
 
   a{
@@ -114,7 +108,7 @@
   display: grid;
   background-color: black;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr .7fr .15fr;
+  grid-template-rows: 1fr 2fr .7fr .2fr;
 }
 
 .nav{
@@ -188,7 +182,7 @@ h2{
   font-size: 1.5em;
   color: white;
   font-family: 'Carter One', cursive;
-  text-shadow: #38B8B3 2px 2px;
+  text-shadow: green 2px 2px;
 }
 
 a{
