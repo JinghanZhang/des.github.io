@@ -11,8 +11,11 @@
   }
 
   .nav{
-    text-align: right;
+    text-align: center;
     padding: 0.5rem;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
   }
 
   ul li{
@@ -20,9 +23,9 @@
     list-style-type: none;
     color: white;
     display: inline;
-    font-family: 'Poiret One', cursive;
-    padding:1em;
-    text-shadow: 4px 3px 4px red;
+    font-family: 'Bangers', cursive;
+    padding:2em;
+    text-shadow: 3px 3px 4px black;
   }
 
   ul li a{
