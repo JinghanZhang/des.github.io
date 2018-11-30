@@ -11,15 +11,15 @@
 
   .nav{
     text-align: right;
-    padding: 0.5rem;
   }
 
   ul li{
+    cursor:pointer;
     list-style-type: none;
     color: white;
     display: inline;
     font-family: 'Poiret One', cursive;
-    padding:inherit;
+    padding:1em;
     text-shadow: 4px 3px 4px red;
   }
 
@@ -117,11 +117,12 @@
 }
 
 ul li{
+  cursor:pointer;
   list-style-type: none;
   color: white;
   display: inline;
   font-family: 'Poiret One', cursive;
-  padding:inherit;
+  padding:1em;
   text-shadow: 4px 3px 4px red;
 }
 
