@@ -1,5 +1,3 @@
-
-
 /*animation for home*/
 @keyframes bounce {
 
@@ -50,7 +48,7 @@
     display: grid;
     background-color: black;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .5fr .1fr .3fr .3fr .6fr .3fr .6fr .3fr .6fr .1fr .1fr;
+    grid-template-rows: .5fr .1fr .3fr .3fr .6fr .3fr .6fr .3fr .6fr .08fr .1fr;
   }
 
   .nav {
@@ -68,6 +66,7 @@
     display: inline;
     font-family: 'Bangers', cursive;
     padding: 2em;
+    font-size: 1.2em;
     text-shadow: 3px 3px 4px red;
   }
 
@@ -80,12 +79,12 @@
   }
 
   h1 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Poiret One', cursive;
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     color: #45DACA;
     /*#01CCB8*/
-    text-shadow: 4px 6px pink;
+    text-shadow: 3px 4px yellow;
     animation-name: bounce;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -100,11 +99,11 @@
     background-size: cover;
   }
 
-  h3{
+  h3 {
     font-family: 'Poiret One', cursive;
     text-align: center;
     font-size: 2em;
-    color: yellow;
+    color: #BAE1FC;
   }
 
   .time {
@@ -113,7 +112,7 @@
     font-size: 1em;
   }
 
-  /*title work*/
+  /*title*/
   .titlework {
     color: #62DACA;
     text-shadow: 6px 6px #FFF000;
@@ -222,6 +221,7 @@
   }
 
   .pabout {
+    background-color: rgba(0, 0, 0, 0.3);
     font-size: 2em;
     color: white;
     font-family: 'Carter One', cursive;
@@ -230,7 +230,8 @@
     padding-right: 1rem;
   }
 
-  .gabout{
+  .gabout {
+    background-color: rgba(0, 0, 0, 0.3);
     padding-left: 2rem;
     font-size: .8em;
     color: white;
@@ -239,6 +240,7 @@
   }
 
   .sabout {
+    background-color: rgba(0, 0, 0, 0.3);
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1em;
@@ -258,19 +260,10 @@
     grid-row: 10;
     grid-column: 1/5;
     color: white;
-    text-shadow: 2px 2px 2px red;
+    text-shadow: 2px 2px red;
     text-align: center;
     font-family: 'Carter One', cursive;
-  }
-
-  .fb {
-    background: url(https://facebook.com/favicon.ico) no-repeat left center;
-    padding-left: 19px;
-  }
-
-  .ins {
-    background: url(https://instagram.com/favicon.ico) no-repeat left center;
-    padding-left: 33px;
+    display: inline;
   }
 
   /*footer*/
@@ -300,7 +293,7 @@
     font-size: 6em;
   }
 
-  h3{
+  h3 {
     font-size: 2em;
   }
 
@@ -340,7 +333,7 @@
     padding-right: 2rem;
   }
 
-  .gabout{
+  .gabout {
     font-size: 1em;
   }
 
@@ -355,7 +348,7 @@
 @media(min-width:1100px) {
   .pagecontainer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .5fr .1fr .4fr .5fr .3fr .03fr .6fr .08fr .1fr;
+    grid-template-rows: .5fr .1fr .4fr .5fr .3fr .03fr .6fr .06fr .1fr;
   }
 
   .home {
@@ -380,6 +373,10 @@
 
   img {
     opacity: .75;
+  }
+
+  ul li a:hover {
+    color: yellow;
   }
 
   .titlework {
@@ -454,7 +451,7 @@
     font-size: 3.4em;
   }
 
-  .gabout{
+  .gabout {
     font-size: 1.5em;
   }
 
