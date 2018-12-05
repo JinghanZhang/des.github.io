@@ -41,7 +41,7 @@
 }
 
 /*small screen*/
-@media (min-width:450px) {
+@media only screen and (min-width:450px) {
   .pagecontainer {
     margin: auto;
     width: auto;
@@ -102,7 +102,7 @@
     font-family: 'Poiret One', cursive;
     text-align: center;
     font-size: 2em;
-    color: #D7F9FF;
+    color: lightblue;
   }
 
   .time {
@@ -255,11 +255,12 @@
 
   /*contact*/
   .contact {
-    background-color: #F5B041;
+    background-color: #FFCB00;
     grid-row: 10;
     grid-column: 1/5;
+    font-size: 1.2em;
     color: white;
-    text-shadow: 2px 2px red;
+    text-shadow: 2px 2px #00812D;
     text-align: center;
     font-family: 'Carter One', cursive;
     display: inline;
@@ -277,7 +278,7 @@
 }
 
 /*medium screen*/
-@media(min-width:768px) {
+@media only screen and (min-width:768px) {
   .pagecontainer {
     grid-template-rows: .3fr .05fr .3fr .3fr .4fr .3fr .6fr .3fr .3fr .05fr .05fr;
   }
@@ -344,7 +345,7 @@
 }
 
 /*large screen*/
-@media(min-width:1100px) {
+@media only screen and (min-width:1100px) {
   .pagecontainer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: .5fr .1fr .4fr .5fr .3fr .03fr .6fr .06fr .1fr;
