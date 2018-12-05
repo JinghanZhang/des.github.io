@@ -66,7 +66,7 @@
     display: inline;
     font-family: 'Bangers', cursive;
     padding: 2em;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-shadow: 3px 3px 4px orange;
   }
 
@@ -83,7 +83,6 @@
     text-align: center;
     font-size: 4em;
     color: #45DACA;
-    /*#01CCB8*/
     text-shadow: 3px 4px yellow;
     animation-name: bounce;
     animation-duration: 2s;
@@ -103,7 +102,7 @@
     font-family: 'Poiret One', cursive;
     text-align: center;
     font-size: 2em;
-    color: #BAE1FC;
+    color: #FFCBC0;
   }
 
   .time {
@@ -430,7 +429,7 @@
   }
 
   .vertical3 {
-    height: 400px;
+    height: 500px;
   }
 
   .intro3 {
