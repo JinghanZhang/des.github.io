@@ -41,7 +41,7 @@
 }
 
 /*small screen*/
-@media only screen and (min-width:450px) {
+@media (min-width:450px) {
   .pagecontainer {
     margin: auto;
     width: auto;
