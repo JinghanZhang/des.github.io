@@ -79,14 +79,12 @@
   }
 
   .homeh1 {
-    font-family: 'Waiting for the Sunrise', cursive;
-    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    text-align: left;
+    padding-left: .7em;
     font-size: 3em;
     color: white;
-    animation-name: bounce;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    padding-top: 1em;
+    padding-top: 1.8em;
   }
 
   .home {
@@ -99,10 +97,14 @@
   }
 
   .homeh3 {
-    font-family: 'Libre Barcode 39 Text', cursive;
-    text-align: center;
-    font-size: 2em;
+    font-size: 1.8em;
     color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: right;
+    padding-right: 1em;
+    /*animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;*/
   }
 
   /*title*/
@@ -269,15 +271,17 @@
   .nav {
     text-align: center;
     padding: 1rem;
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
 
   .homeh1 {
+    padding-left: 1em;
     font-size: 4em;
   }
 
   .homeh3 {
-    font-size: 3em;
+    padding-right: 1.5em;
+    font-size: 2em;
   }
 
   .titlework {
@@ -332,11 +336,14 @@
   }
 
   .homeh1 {
+    padding-top: 1em;
+    padding-left: 2.5em;
     font-size: 5em;
   }
 
   .homeh3 {
-    font-size: 4em;
+    padding-right: 3em;
+    font-size: 3em;
   }
 
   img:hover {
