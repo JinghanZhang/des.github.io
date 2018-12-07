@@ -36,16 +36,6 @@
     text-align: center;
   }
 
-  .name{
-    font-family: 'Rock Salt', cursive;
-    text-align: left;
-    padding-left: 1em;
-    font-size: 3.4em;
-    color: #33CACB;
-    text-shadow: 3px 5px white;
-    padding-top:.5em;
-  }
-
   .home {
     grid-column: 1/5;
     grid-row: 1;
@@ -55,11 +45,19 @@
     background-size: cover;
   }
 
+  .name{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 3.6em;
+    color: #33CACB;
+    text-shadow: 3px 5px white;
+  }
+
   .homeh3 {
     font-size: 1.1em;
     color: #FFF000;
     font-family: 'Rock Salt', cursive;
-    text-align: right;
+    text-align: center;
     padding-right: 1em;
     padding-top: 1em;
   }
@@ -236,12 +234,10 @@
 
   .name {
     padding-top:1em;
-    padding-left: 1em;
     font-size: 4em;
   }
 
   .homeh3 {
-    padding-right: 1.5em;
     font-size: 1.7em;
   }
 
@@ -302,12 +298,10 @@
 
   .name {
     padding-top: 3em;
-    padding-left: 2em;
     font-size: 6em;
   }
 
   .homeh3 {
-    padding-right: 3em;
     font-size: 2.5em;
   }
 
