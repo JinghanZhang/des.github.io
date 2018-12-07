@@ -6,7 +6,7 @@
     display: grid;
     background-color: black;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .5fr .1fr .3fr .3fr .6fr .3fr .6fr .3fr .6fr .08fr .1fr;
+    grid-template-rows: .5fr .1fr .3fr .3fr .6fr .3fr .6fr .3fr .6fr .08fr .15fr;
   }
 
   .nav {
@@ -19,13 +19,17 @@
   }
 
   ul li {
-    cursor: pointer;
-    list-style-type: none;
-    color: white;
+    grid-column:1/5;
+    list-style-type:none;
     display: inline;
     font-family: 'Bangers', cursive;
     padding:1em;
     font-size: 2em;
+  }
+
+  .liimg{
+    width:5%;
+    height:5%;
   }
 
   ul li a {
@@ -46,20 +50,19 @@
   }
 
   .name{
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Indie Flower', cursive;
     text-align: center;
-    font-size: 3.6em;
-    color: #33CACB;
-    text-shadow: 3px 5px white;
+    font-size: 4em;
+    color: #EC7063;
+    padding-top:.5em;
   }
 
   .homeh3 {
-    font-size: 1.1em;
-    color: #FFF000;
-    font-family: 'Rock Salt', cursive;
+    font-size: 1.8em;
+    color: #FFEF00;
+    font-family: 'Indie Flower', cursive;
     text-align: center;
-    padding-right: 1em;
-    padding-top: 1em;
+    text-shadow: 2px 2px #E67E22  ;
   }
 
   /*title*/
@@ -203,7 +206,7 @@
     grid-column: 1/5;
     font-size: 1.2em;
     color: white;
-    text-shadow: 2px 2px #00812D;
+    text-shadow: 2px 2px #2E86C1;
     text-align: center;
     font-family: 'Carter One', cursive;
     display: inline;
@@ -243,6 +246,11 @@
 
   ul li{
     font-size:1.8em;
+  }
+
+  .liimg{
+    width:4%;
+    height:4%;
   }
 
   .titlework {
@@ -320,6 +328,11 @@
 
   ul li a:hover {
     color: yellow;
+  }
+
+  .liimg{
+    width:3%;
+    height:3%;
   }
 
   .titlework {
