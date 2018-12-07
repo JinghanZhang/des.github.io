@@ -39,10 +39,11 @@
   .name{
     font-family: 'Rock Salt', cursive;
     text-align: left;
-    padding-left: .7em;
-    font-size: 3em;
-    color: white;
-    padding-top:1.8em;
+    padding-left: 1em;
+    font-size: 3.4em;
+    color: #33CACB;
+    text-shadow: 3px 5px white;
+    padding-top:.5em;
   }
 
   .home {
@@ -55,14 +56,12 @@
   }
 
   .homeh3 {
-    font-size: 1.8em;
-    color: white;
-    font-family: 'Poiret One', cursive;
+    font-size: 1.1em;
+    color: #FFF000;
+    font-family: 'Rock Salt', cursive;
     text-align: right;
     padding-right: 1em;
-    /*animation-name: bounce;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;*/
+    padding-top: 1em;
   }
 
   /*title*/
@@ -236,13 +235,14 @@
   }
 
   .name {
+    padding-top:1em;
     padding-left: 1em;
     font-size: 4em;
   }
 
   .homeh3 {
     padding-right: 1.5em;
-    font-size: 2em;
+    font-size: 1.7em;
   }
 
   ul li{
@@ -301,14 +301,14 @@
   }
 
   .name {
-    padding-top: 1em;
+    padding-top: 3em;
     padding-left: 2em;
-    font-size: 5em;
+    font-size: 6em;
   }
 
   .homeh3 {
     padding-right: 3em;
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   img:hover {
