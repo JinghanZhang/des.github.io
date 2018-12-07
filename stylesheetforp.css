@@ -25,7 +25,7 @@
     display: inline;
     font-family: 'Bangers', cursive;
     padding:1em;
-    font-size: 1.2em;
+    font-size: 2em;
   }
 
   ul li a {
@@ -36,13 +36,13 @@
     text-align: center;
   }
 
-  .homeh1 {
-    font-family: 'Abril Fatface', cursive;
+  .name{
+    font-family: 'Rock Salt', cursive;
     text-align: left;
     padding-left: .7em;
     font-size: 3em;
     color: white;
-    padding-top: 1.8em;
+    padding-top:1.8em;
   }
 
   .home {
@@ -235,7 +235,7 @@
     font-size: 1.5em;
   }
 
-  .homeh1 {
+  .name {
     padding-left: 1em;
     font-size: 4em;
   }
@@ -246,7 +246,7 @@
   }
 
   ul li{
-    font-size:1em;
+    font-size:1.8em;
   }
 
   .titlework {
@@ -300,7 +300,7 @@
     height: 1500px;
   }
 
-  .homeh1 {
+  .name {
     padding-top: 1em;
     padding-left: 2em;
     font-size: 5em;
@@ -320,7 +320,8 @@
   }
 
   ul li{
-    font-size:1.2em;
+    padding:1em;
+    font-size:1.5em;
   }
 
   ul li a:hover {
