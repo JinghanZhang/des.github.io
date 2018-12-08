@@ -222,7 +222,7 @@
 }
 
 /*medium screen*/
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:700px) {
   .pagecontainer {
     grid-template-rows: .3fr .05fr .3fr .3fr .4fr .3fr .6fr .3fr .3fr .05fr .1fr;
   }
