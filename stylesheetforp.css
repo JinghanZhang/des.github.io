@@ -174,7 +174,7 @@
 
   .pabout {
     background-color: rgba(0, 0, 0, 0.3);
-    font-size: 2em;
+    font-size: 1.8em;
     color: white;
     font-family: 'Carter One', cursive;
     text-shadow: blue 3px 3px;
@@ -186,7 +186,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 1em;
+    font-size: .8em;
     color: white;
     font-family: 'Carter One', cursive;
     text-shadow: #A93226 2px 2px;
