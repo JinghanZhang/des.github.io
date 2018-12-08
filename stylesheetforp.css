@@ -24,7 +24,7 @@
     display: inline;
     font-family: 'Bangers', cursive;
     padding:1em;
-    font-size: 2em;
+    font-size: 1.6em;
   }
 
   .liimg{
@@ -50,19 +50,18 @@
   }
 
   .name{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Bangers', cursive;
     text-align: center;
-    font-size: 4em;
-    color: #EC7063;
-    padding-top:.5em;
+    font-size: 5.8em;
+    color: white;
+    text-shadow: 2px 2px #CB2D63;
   }
 
   .homeh3 {
-    font-size: 1.8em;
-    color: #FFEF00;
-    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+    color: #FFF000;
+    font-family: 'Lobster Two', cursive;
     text-align: center;
-    text-shadow: 2px 2px #E67E22  ;
   }
 
   /*title*/
@@ -124,7 +123,6 @@
   }
 
   .vertical2 {
-
     width: 100%;
   }
 
@@ -196,7 +194,7 @@
 
   a {
     text-decoration: none;
-    color: white;
+    color: #D1E8E2;
   }
 
   /*contact*/
@@ -226,7 +224,7 @@
 /*medium screen*/
 @media only screen and (min-width:768px) {
   .pagecontainer {
-    grid-template-rows: .3fr .05fr .3fr .3fr .4fr .3fr .6fr .3fr .3fr .05fr .05fr;
+    grid-template-rows: .3fr .05fr .3fr .3fr .4fr .3fr .6fr .3fr .3fr .05fr .1fr;
   }
 
   .nav {
@@ -236,12 +234,11 @@
   }
 
   .name {
-    padding-top:1em;
-    font-size: 4em;
+    font-size: 6em;
   }
 
   .homeh3 {
-    font-size: 1.7em;
+    font-size: 2em;
   }
 
   ul li{
@@ -297,7 +294,7 @@
 @media only screen and (min-width:1100px) {
   .pagecontainer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .5fr .1fr .4fr .5fr .3fr .03fr .6fr .06fr .1fr;
+    grid-template-rows: .5fr .1fr .4fr .5fr .3fr .03fr .6fr .06fr .15fr;
   }
 
   .home {
@@ -305,12 +302,11 @@
   }
 
   .name {
-    padding-top: 3em;
-    font-size: 6em;
+    font-size: 7em;
   }
 
   .homeh3 {
-    font-size: 2.5em;
+    font-size: 3em;
   }
 
   img:hover {
