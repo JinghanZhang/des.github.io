@@ -1,5 +1,5 @@
 /*small screen*/
-@media  (min-width:350px) {
+@media (min-width:350px) {
   .pagecontainer {
     margin: auto;
     width: auto;
@@ -11,7 +11,7 @@
 
   .nav {
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.3rem;
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -19,17 +19,17 @@
   }
 
   ul li {
-    grid-column:1/5;
-    list-style-type:none;
+    grid-column: 1/5;
+    list-style-type: none;
     display: inline;
     font-family: 'Bangers', cursive;
-    padding:1em;
+    padding: 1em;
     font-size: 1.6em;
   }
 
-  .liimg{
-    width:5%;
-    height:5%;
+  .liimg {
+    width: 5%;
+    height: 5%;
   }
 
   ul li a {
@@ -49,7 +49,7 @@
     background-size: cover;
   }
 
-  .name{
+  .name {
     font-family: 'Bangers', cursive;
     text-align: center;
     font-size: 5.8em;
@@ -159,7 +159,7 @@
     font-size: 1.5em;
   }
 
-  .pos{
+  .pos {
     text-align: center;
   }
 
@@ -241,13 +241,13 @@
     font-size: 2em;
   }
 
-  ul li{
-    font-size:1.8em;
+  ul li {
+    font-size: 1.5em;
   }
 
-  .liimg{
-    width:4%;
-    height:4%;
+  .liimg {
+    width: 4%;
+    height: 4%;
   }
 
   .titlework {
@@ -317,18 +317,18 @@
     opacity: .75;
   }
 
-  ul li{
-    padding:1em;
-    font-size:1.5em;
+  ul li {
+    padding: 1em;
+    font-size: 1.5em;
   }
 
   ul li a:hover {
     color: yellow;
   }
 
-  .liimg{
-    width:3%;
-    height:3%;
+  .liimg {
+    width: 3%;
+    height: 3%;
   }
 
   .titlework {
